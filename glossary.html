@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Glossary - NASM Wellness Coaching — Wiki</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Personal study notes on NASM&#x27;s Principles of Wellness Coaching course: foundations, client psychology, movement, stress and recovery, sleep, social wellness, nutrition, coaching skills and wellness plans">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Wiki Home</a></li><li class="chapter-item expanded affix "><a href="about.html">About the Source</a></li><li class="chapter-item expanded affix "><li class="part-title">Foundations of Coaching</li><li class="chapter-item expanded "><a href="concepts/wellness-coaching-opsise.html"><strong aria-hidden="true">1.</strong> Wellness Coaching and the Six Dimensions (OPSISE)</a></li><li class="chapter-item expanded "><a href="concepts/growth-mindset.html"><strong aria-hidden="true">2.</strong> Growth Mindset</a></li><li class="chapter-item expanded "><a href="concepts/coach-role-relationship.html"><strong aria-hidden="true">3.</strong> The Coach's Role, Evidence and the Coaching Relationship</a></li><li class="chapter-item expanded affix "><li class="part-title">Client Psychology</li><li class="chapter-item expanded "><a href="concepts/locus-of-control-attribution.html"><strong aria-hidden="true">4.</strong> Locus of Control and Attributional Retraining</a></li><li class="chapter-item expanded "><a href="concepts/negativity-bias-self-compassion-shame.html"><strong aria-hidden="true">5.</strong> Negativity Bias, Self-Compassion and Shame</a></li><li class="chapter-item expanded "><a href="concepts/self-efficacy.html"><strong aria-hidden="true">6.</strong> Self-Efficacy</a></li><li class="chapter-item expanded "><a href="concepts/get-to-vs-have-to.html"><strong aria-hidden="true">7.</strong> Wellness Mindset: "Get To" vs "Have To"</a></li><li class="chapter-item expanded "><a href="concepts/flexibility.html"><strong aria-hidden="true">8.</strong> Psychological and Behavioral Flexibility</a></li><li class="chapter-item expanded "><a href="concepts/upward-spirals.html"><strong aria-hidden="true">9.</strong> Upward Spirals and the Transfer Effect</a></li><li class="chapter-item expanded affix "><li class="part-title">Movement</li><li class="chapter-item expanded "><a href="concepts/movement-benefits.html"><strong aria-hidden="true">10.</strong> Benefits of Movement</a></li><li class="chapter-item expanded "><a href="concepts/movement-motivation.html"><strong aria-hidden="true">11.</strong> Movement Motivation, Meaning and Obstacles</a></li><li class="chapter-item expanded affix "><li class="part-title">Positive Psychology, Stress and Recovery</li><li class="chapter-item expanded "><a href="concepts/positive-psychology-gratitude.html"><strong aria-hidden="true">12.</strong> Positive Psychology and Gratitude</a></li><li class="chapter-item expanded "><a href="concepts/stress-and-recovery.html"><strong aria-hidden="true">13.</strong> Stress Management and Recovery</a></li><li class="chapter-item expanded "><a href="concepts/performance-cognition-mind-body.html"><strong aria-hidden="true">14.</strong> Performance, Cognition and the Mind–Body Connection</a></li><li class="chapter-item expanded affix "><li class="part-title">Sleep</li><li class="chapter-item expanded "><a href="concepts/sleep.html"><strong aria-hidden="true">15.</strong> Sleep Hygiene and Optimizing Sleep</a></li><li class="chapter-item expanded affix "><li class="part-title">Social Wellness</li><li class="chapter-item expanded "><a href="concepts/social-wellness.html"><strong aria-hidden="true">16.</strong> Social Wellness, Social Capacity and Social Media</a></li><li class="chapter-item expanded affix "><li class="part-title">Nutrition</li><li class="chapter-item expanded "><a href="concepts/healthy-dietary-patterns.html"><strong aria-hidden="true">17.</strong> Healthy Dietary Patterns: Food First</a></li><li class="chapter-item expanded "><a href="concepts/eating-emotions-weight.html"><strong aria-hidden="true">18.</strong> Eating, Emotions and Body Weight</a></li><li class="chapter-item expanded "><a href="concepts/supplements-flexible.html"><strong aria-hidden="true">19.</strong> Supplements and Flexible Dietary Strategies</a></li><li class="chapter-item expanded affix "><li class="part-title">Coaching Skills</li><li class="chapter-item expanded "><a href="concepts/motivational-interviewing.html"><strong aria-hidden="true">20.</strong> Motivational Interviewing and the Coaching Continuum</a></li><li class="chapter-item expanded "><a href="concepts/coaching-mindset.html"><strong aria-hidden="true">21.</strong> Coaching Mindset and Session Structure</a></li><li class="chapter-item expanded "><a href="concepts/cultural-awareness-philosophy.html"><strong aria-hidden="true">22.</strong> Cultural Awareness and Coaching Philosophy</a></li><li class="chapter-item expanded affix "><li class="part-title">Wellness Plans</li><li class="chapter-item expanded "><a href="concepts/wellness-plan.html"><strong aria-hidden="true">23.</strong> Creating, Monitoring and Changing the Wellness Plan</a></li><li class="chapter-item expanded "><a href="concepts/derailers.html"><strong aria-hidden="true">24.</strong> Situations That Derail</a></li><li class="chapter-item expanded affix "><li class="part-title">Reference</li><li class="chapter-item expanded "><a href="glossary.html" class="active"><strong aria-hidden="true">25.</strong> Glossary</a></li><li class="chapter-item expanded "><a href="lesson-map.html"><strong aria-hidden="true">26.</strong> Lesson Map</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">NASM Wellness Coaching — Wiki</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="glossary"><a class="header" href="#glossary">Glossary</a></h1>
+<p>Definitions are paraphrased from the course. The lesson numbers point to where each term comes up; follow the link for the full context.</p>
+<div class="table-wrapper"><table><thead><tr><th>Term</th><th>Definition</th><th>Lesson(s) / page</th></tr></thead><tbody>
+<tr><td><strong>Active listening</strong></td><td>Taking in fully what the client says, then asking permission before sharing your own knowledge</td><td>49 · <a href="concepts/coach-role-relationship.html">Coach's Role</a></td></tr>
+<tr><td><strong>Affirmation</strong></td><td>The &quot;A&quot; in OARS: a true, behaviour-based statement that helps clients notice their strengths and values</td><td>10, 56 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Allostatic load</strong></td><td>The cumulative wear and tear on the body from chronically activated stress responses</td><td>32 · <a href="concepts/stress-and-recovery.html">Stress</a></td></tr>
+<tr><td><strong>Ambivalence</strong></td><td>Having conflicting desires about change</td><td>3, 10, 61 · <a href="concepts/wellness-coaching-opsise.html">OPSISE</a></td></tr>
+<tr><td><strong>Amplified reflection</strong></td><td>Repeating a client's all-or-nothing statement back in exaggerated form so they can reconsider it</td><td>73 · <a href="concepts/derailers.html">Derailers</a></td></tr>
+<tr><td><strong>Attribution / attributional retraining</strong></td><td>What a person blames for blocking them (attribution), and retraining thoughts and perceptions to get past it with small, doable steps</td><td>8 · <a href="concepts/locus-of-control-attribution.html">Locus of Control</a></td></tr>
+<tr><td><strong>Autophagy</strong></td><td>Described in the course as the body's clean-up of metabolic waste: &quot;carrying out the trash&quot; at the cellular level</td><td>38 · <a href="concepts/healthy-dietary-patterns.html">Dietary Patterns</a></td></tr>
+<tr><td><strong>BDNF</strong></td><td>A factor raised by exercise that builds new connections in the brain</td><td>15, 21 · <a href="concepts/movement-benefits.html">Movement Benefits</a></td></tr>
+<tr><td><strong>Beginner's mind with an expert toolkit</strong></td><td>Bringing both competence and open curiosity; seeing each client as unique</td><td>50, 63, 67 · <a href="concepts/coaching-mindset.html">Coaching Mindset</a></td></tr>
+<tr><td><strong>Body–food choice congruence</strong></td><td>Awareness of how particular foods make your body feel (energy, fullness, nourishment)</td><td>43 · <a href="concepts/eating-emotions-weight.html">Eating &amp; Weight</a></td></tr>
+<tr><td><strong>CAT</strong></td><td>Change-talk prompts: Commitment, Activation, Taking steps</td><td>60 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Change talk</strong></td><td>Client language that signals motivation to change</td><td>60 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Coaching container</strong></td><td>The safe, consistent space and structure in which coaching happens</td><td>6, 68 · <a href="concepts/coach-role-relationship.html">Coach's Role</a></td></tr>
+<tr><td><strong>Coaching communication culture</strong></td><td>The intentional way a coach relates to a client, combining the coach's style, training and the client's preferences</td><td>62 · <a href="concepts/cultural-awareness-philosophy.html">Cultural Awareness</a></td></tr>
+<tr><td><strong>Coaching from center, not as center</strong></td><td>Coaching from a grounded place as a guide, not as the director of the client's journey</td><td>50, 67 · <a href="concepts/coaching-mindset.html">Coaching Mindset</a></td></tr>
+<tr><td><strong>Coaching philosophy</strong></td><td>A written statement of the core values and approaches behind your way of coaching</td><td>63, 64 · <a href="concepts/cultural-awareness-philosophy.html">Philosophy</a></td></tr>
+<tr><td><strong>Cognitive load</strong></td><td>The demand on limited attention; when it rises, muscle tension (musculoskeletal load) rises too</td><td>24 · <a href="concepts/performance-cognition-mind-body.html">Performance</a></td></tr>
+<tr><td><strong>Cognitive reappraisal</strong></td><td>Reinterpreting an emotional event to lessen its impact; usually effective (unlike suppression)</td><td>24 · <a href="concepts/performance-cognition-mind-body.html">Performance</a></td></tr>
+<tr><td><strong>DARN</strong></td><td>Change-talk prompts: Desire, Ability, Reasons, Need</td><td>60 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Dichotomous thinking</strong></td><td>Seeing foods or behaviour as purely good or bad</td><td>41 · <a href="concepts/eating-emotions-weight.html">Eating &amp; Weight</a></td></tr>
+<tr><td><strong>Dietary pattern</strong></td><td>The totality of what a person habitually eats and drinks, with the parts acting together on health</td><td>34, 36 · <a href="concepts/healthy-dietary-patterns.html">Dietary Patterns</a></td></tr>
+<tr><td><strong>Disinhibited eating</strong></td><td>Overeating after feeling you've &quot;broken a rule&quot;</td><td>41 · <a href="concepts/eating-emotions-weight.html">Eating &amp; Weight</a></td></tr>
+<tr><td><strong>Distress</strong></td><td>Stress perceived as overwhelming; harms performance, health and longevity</td><td>15 · <a href="concepts/movement-benefits.html">Movement Benefits</a></td></tr>
+<tr><td><strong>Dunbar's number</strong></td><td>A suggested cognitive limit on the number of stable relationships a person can maintain</td><td>30 · <a href="concepts/social-wellness.html">Social</a></td></tr>
+<tr><td><strong>Embodied cognition</strong></td><td>The theory that the whole body, not just the brain, takes part in thinking and producing behaviour</td><td>26 · <a href="concepts/performance-cognition-mind-body.html">Performance</a></td></tr>
+<tr><td><strong>Emotional granularity</strong></td><td>The ability to tell emotions apart precisely, allowing measured responses</td><td>21 · <a href="concepts/stress-and-recovery.html">Stress</a></td></tr>
+<tr><td><strong>Empathy</strong></td><td>Understanding and sharing another person's feelings; not the same as sympathy</td><td>49, 54 · <a href="concepts/coach-role-relationship.html">Coach's Role</a></td></tr>
+<tr><td><strong>Equity awareness</strong></td><td>Recognising that people don't start from the same place</td><td>62 · <a href="concepts/cultural-awareness-philosophy.html">Cultural Awareness</a></td></tr>
+<tr><td><strong>Eustress</strong></td><td>Positive stress that drives growth and adaptation</td><td>15, 23 · <a href="concepts/stress-and-recovery.html">Stress</a></td></tr>
+<tr><td><strong>Explicit / implicit bias</strong></td><td>Judgements held consciously / stereotypes held without awareness</td><td>62 · <a href="concepts/cultural-awareness-philosophy.html">Cultural Awareness</a></td></tr>
+<tr><td><strong>External / internal locus of control</strong></td><td>Believing outcomes depend on others or chance / on your own actions</td><td>7 · <a href="concepts/locus-of-control-attribution.html">Locus of Control</a></td></tr>
+<tr><td><strong>Five Ps</strong></td><td>Purpose, Principles, Practices, Pillars, People: a structure for a coaching philosophy</td><td>63 · <a href="concepts/cultural-awareness-philosophy.html">Philosophy</a></td></tr>
+<tr><td><strong>Fixed / growth mindset</strong></td><td>Believing abilities are set / believing they grow with effort and learning</td><td>2, 24, 60 · <a href="concepts/growth-mindset.html">Growth Mindset</a></td></tr>
+<tr><td><strong>Four Fs</strong></td><td>Fight, flight, food and sex: hypothalamus-driven survival motivations</td><td>25 · <a href="concepts/performance-cognition-mind-body.html">Performance</a></td></tr>
+<tr><td><strong>Generative accountability</strong></td><td>Accountability reframed as holding clients capable and able: growthful, engaged and mutual, not nagging</td><td>50, 54 · <a href="concepts/coaching-mindset.html">Coaching Mindset</a></td></tr>
+<tr><td><strong>Get to vs have to</strong></td><td>The wellness mindset of choice and self-care (&quot;I get to&quot;) rather than obligation and self-control (&quot;I have to&quot;)</td><td>70 · <a href="concepts/get-to-vs-have-to.html">Get To vs Have To</a></td></tr>
+<tr><td><strong>Imposter syndrome</strong></td><td>Doubting your own skills and whether you have anything to offer</td><td>50, 66 · <a href="concepts/coaching-mindset.html">Coaching Mindset</a></td></tr>
+<tr><td><strong>Intuitive eating</strong></td><td>Eating by physiological hunger and fullness cues rather than situational or emotional cues; 10 principles</td><td>43 · <a href="concepts/eating-emotions-weight.html">Eating &amp; Weight</a></td></tr>
+<tr><td><strong>Inverted U</strong></td><td>The arousal–performance curve: too little or too much arousal hurts performance; the middle is the sweet spot</td><td>24 · <a href="concepts/performance-cognition-mind-body.html">Performance</a></td></tr>
+<tr><td><strong>Locus of control</strong></td><td>How much control a person feels they have over their life and health</td><td>7 · <a href="concepts/locus-of-control-attribution.html">Locus of Control</a></td></tr>
+<tr><td><strong>Mastery experience</strong></td><td>Building on previous success to grow belief in your own skill</td><td>52 · <a href="concepts/self-efficacy.html">Self-Efficacy</a></td></tr>
+<tr><td><strong>Mindful eating</strong></td><td>Paying non-judgemental attention to hunger, fullness, taste, cravings and triggers while eating</td><td>41, 43 · <a href="concepts/eating-emotions-weight.html">Eating &amp; Weight</a></td></tr>
+<tr><td><strong>Motivational interviewing (MI)</strong></td><td>A collaborative, client-centred communication style that explores ambivalence and evokes the client's own motivation</td><td>10, 56 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Movement milestone</strong></td><td>A meaningful physical accomplishment that is concrete evidence of growth</td><td>53 · <a href="concepts/movement-motivation.html">Movement Motivation</a></td></tr>
+<tr><td><strong>Negativity bias</strong></td><td>The tendency to focus more on negative than positive things; an evolutionary survival trait</td><td>9, 21, 30 · <a href="concepts/negativity-bias-self-compassion-shame.html">Negativity Bias</a></td></tr>
+<tr><td><strong>Neuroplasticity</strong></td><td>The brain's ability to adapt to new circumstances and challenges, including memory and learning</td><td>15, 22 · <a href="concepts/movement-benefits.html">Movement Benefits</a></td></tr>
+<tr><td><strong>OARS</strong></td><td>Open questions, Affirmations, Reflections, Summarising: the core MI tools</td><td>10, 56 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>OPSISE</strong></td><td>The six dimensions of wellness: Occupational, Physical, Social, Intellectual, Spiritual, Emotional</td><td>3 · <a href="concepts/wellness-coaching-opsise.html">OPSISE</a></td></tr>
+<tr><td><strong>PERMA (+V)</strong></td><td>Seligman's wellbeing model (Positive emotion, Engagement, Relationships, Meaning, Accomplishment), with Vitality added</td><td>19 · <a href="concepts/positive-psychology-gratitude.html">Positive Psychology</a></td></tr>
+<tr><td><strong>Positive psychology</strong></td><td>The scientific study of human wellbeing</td><td>19 · <a href="concepts/positive-psychology-gratitude.html">Positive Psychology</a></td></tr>
+<tr><td><strong>Pragmatic optimism</strong></td><td>Being honest about a hard situation, then choosing the most hopeful realistic next step</td><td>20 · <a href="concepts/positive-psychology-gratitude.html">Positive Psychology</a></td></tr>
+<tr><td><strong>Psychological and behavioral flexibility</strong></td><td>Recognising and adapting to situational demands while staying open and aware</td><td>57 · <a href="concepts/flexibility.html">Flexibility</a></td></tr>
+<tr><td><strong>Reflective listening</strong></td><td>Paraphrasing a client's words back to them to clarify and validate</td><td>49, 56 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Sedentary behaviour</strong></td><td>Time spent seated, reclining or lying down; exercise does not undo it</td><td>14 · <a href="concepts/movement-benefits.html">Movement Benefits</a></td></tr>
+<tr><td><strong>Self-compassion</strong></td><td>Common humanity, self-kindness and mindfulness towards your own struggles; not self-indulgence</td><td>9, 55 · <a href="concepts/negativity-bias-self-compassion-shame.html">Self-Compassion</a></td></tr>
+<tr><td><strong>Self-determination theory</strong></td><td>The theory, linked to MI, that people inherently seek growth; autonomy and competence fuel change</td><td>10 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Self-efficacy</strong></td><td>Confidence and intentionality about sustaining healthy habits on your own; the end goal of coaching</td><td>52 · <a href="concepts/self-efficacy.html">Self-Efficacy</a></td></tr>
+<tr><td><strong>Shame</strong></td><td>The painful belief that we are flawed and so unworthy of love and belonging</td><td>54 · <a href="concepts/negativity-bias-self-compassion-shame.html">Shame</a></td></tr>
+<tr><td><strong>Sleep inertia</strong></td><td>Grogginess from waking during deep sleep; avoided with 15-minute or 90-minute naps</td><td>27 · <a href="concepts/sleep.html">Sleep</a></td></tr>
+<tr><td><strong>Social capital</strong></td><td>Quality relationships and communities built on trust and belonging</td><td>31 · <a href="concepts/social-wellness.html">Social</a></td></tr>
+<tr><td><strong>Subjective vitality</strong></td><td>The perceived feeling of having enough energy</td><td>15 · <a href="concepts/movement-benefits.html">Movement Benefits</a></td></tr>
+<tr><td><strong>Summarising</strong></td><td>The &quot;S&quot; in OARS: pulling the whole conversation together</td><td>10, 56 · <a href="concepts/motivational-interviewing.html">MI</a></td></tr>
+<tr><td><strong>Toxic positivity</strong></td><td>Denying real suffering and insisting on focusing only on the good</td><td>20 · <a href="concepts/positive-psychology-gratitude.html">Positive Psychology</a></td></tr>
+<tr><td><strong>Transfer effect</strong></td><td>A positive change in one area spreading to others</td><td>58, 59 · <a href="concepts/upward-spirals.html">Upward Spirals</a></td></tr>
+<tr><td><strong>Upward spiral</strong></td><td>A positive feedback loop where one positive behaviour or emotion makes the next more likely</td><td>58 · <a href="concepts/upward-spirals.html">Upward Spirals</a></td></tr>
+<tr><td><strong>Vagal tone</strong></td><td>Described in the course as a measure of stress, linked to the 10th cranial nerve; it forms an upward spiral with positive emotion</td><td>22, 58 · <a href="concepts/stress-and-recovery.html">Stress</a></td></tr>
+<tr><td><strong>Vicarious experience</strong></td><td>Being influenced by identifying with someone else's success or cautionary tale</td><td>52 · <a href="concepts/self-efficacy.html">Self-Efficacy</a></td></tr>
+<tr><td><strong>Von Economo neurons</strong></td><td>Brain cells found only in highly intelligent, social animals, linked to regulating emotion in social contexts</td><td>30 · <a href="concepts/social-wellness.html">Social</a></td></tr>
+<tr><td><strong>Weight-neutral approach</strong></td><td>Focusing on health-promoting behaviours rather than weight loss as the outcome</td><td>42 · <a href="concepts/eating-emotions-weight.html">Eating &amp; Weight</a></td></tr>
+<tr><td><strong>Wellness coaching (NASM)</strong></td><td>The active process of applying learned and developed strategies that lead to the mental, emotional and physical betterment of life</td><td>3 · <a href="concepts/wellness-coaching-opsise.html">OPSISE</a></td></tr>
+<tr><td><strong>Wellness vision</strong></td><td>The client's personal picture of what wellness means and is in service of; it sits at the top of the wellness plan</td><td>69, 70 · <a href="concepts/wellness-plan.html">Wellness Plan</a></td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="concepts/derailers.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="lesson-map.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="concepts/derailers.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="lesson-map.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

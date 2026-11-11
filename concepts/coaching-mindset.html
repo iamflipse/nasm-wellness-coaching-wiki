@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Coaching Mindset and Session Structure - NASM Wellness Coaching — Wiki</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Personal study notes on NASM&#x27;s Principles of Wellness Coaching course: foundations, client psychology, movement, stress and recovery, sleep, social wellness, nutrition, coaching skills and wellness plans">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Wiki Home</a></li><li class="chapter-item expanded affix "><a href="../about.html">About the Source</a></li><li class="chapter-item expanded affix "><li class="part-title">Foundations of Coaching</li><li class="chapter-item expanded "><a href="../concepts/wellness-coaching-opsise.html"><strong aria-hidden="true">1.</strong> Wellness Coaching and the Six Dimensions (OPSISE)</a></li><li class="chapter-item expanded "><a href="../concepts/growth-mindset.html"><strong aria-hidden="true">2.</strong> Growth Mindset</a></li><li class="chapter-item expanded "><a href="../concepts/coach-role-relationship.html"><strong aria-hidden="true">3.</strong> The Coach's Role, Evidence and the Coaching Relationship</a></li><li class="chapter-item expanded affix "><li class="part-title">Client Psychology</li><li class="chapter-item expanded "><a href="../concepts/locus-of-control-attribution.html"><strong aria-hidden="true">4.</strong> Locus of Control and Attributional Retraining</a></li><li class="chapter-item expanded "><a href="../concepts/negativity-bias-self-compassion-shame.html"><strong aria-hidden="true">5.</strong> Negativity Bias, Self-Compassion and Shame</a></li><li class="chapter-item expanded "><a href="../concepts/self-efficacy.html"><strong aria-hidden="true">6.</strong> Self-Efficacy</a></li><li class="chapter-item expanded "><a href="../concepts/get-to-vs-have-to.html"><strong aria-hidden="true">7.</strong> Wellness Mindset: "Get To" vs "Have To"</a></li><li class="chapter-item expanded "><a href="../concepts/flexibility.html"><strong aria-hidden="true">8.</strong> Psychological and Behavioral Flexibility</a></li><li class="chapter-item expanded "><a href="../concepts/upward-spirals.html"><strong aria-hidden="true">9.</strong> Upward Spirals and the Transfer Effect</a></li><li class="chapter-item expanded affix "><li class="part-title">Movement</li><li class="chapter-item expanded "><a href="../concepts/movement-benefits.html"><strong aria-hidden="true">10.</strong> Benefits of Movement</a></li><li class="chapter-item expanded "><a href="../concepts/movement-motivation.html"><strong aria-hidden="true">11.</strong> Movement Motivation, Meaning and Obstacles</a></li><li class="chapter-item expanded affix "><li class="part-title">Positive Psychology, Stress and Recovery</li><li class="chapter-item expanded "><a href="../concepts/positive-psychology-gratitude.html"><strong aria-hidden="true">12.</strong> Positive Psychology and Gratitude</a></li><li class="chapter-item expanded "><a href="../concepts/stress-and-recovery.html"><strong aria-hidden="true">13.</strong> Stress Management and Recovery</a></li><li class="chapter-item expanded "><a href="../concepts/performance-cognition-mind-body.html"><strong aria-hidden="true">14.</strong> Performance, Cognition and the Mind–Body Connection</a></li><li class="chapter-item expanded affix "><li class="part-title">Sleep</li><li class="chapter-item expanded "><a href="../concepts/sleep.html"><strong aria-hidden="true">15.</strong> Sleep Hygiene and Optimizing Sleep</a></li><li class="chapter-item expanded affix "><li class="part-title">Social Wellness</li><li class="chapter-item expanded "><a href="../concepts/social-wellness.html"><strong aria-hidden="true">16.</strong> Social Wellness, Social Capacity and Social Media</a></li><li class="chapter-item expanded affix "><li class="part-title">Nutrition</li><li class="chapter-item expanded "><a href="../concepts/healthy-dietary-patterns.html"><strong aria-hidden="true">17.</strong> Healthy Dietary Patterns: Food First</a></li><li class="chapter-item expanded "><a href="../concepts/eating-emotions-weight.html"><strong aria-hidden="true">18.</strong> Eating, Emotions and Body Weight</a></li><li class="chapter-item expanded "><a href="../concepts/supplements-flexible.html"><strong aria-hidden="true">19.</strong> Supplements and Flexible Dietary Strategies</a></li><li class="chapter-item expanded affix "><li class="part-title">Coaching Skills</li><li class="chapter-item expanded "><a href="../concepts/motivational-interviewing.html"><strong aria-hidden="true">20.</strong> Motivational Interviewing and the Coaching Continuum</a></li><li class="chapter-item expanded "><a href="../concepts/coaching-mindset.html" class="active"><strong aria-hidden="true">21.</strong> Coaching Mindset and Session Structure</a></li><li class="chapter-item expanded "><a href="../concepts/cultural-awareness-philosophy.html"><strong aria-hidden="true">22.</strong> Cultural Awareness and Coaching Philosophy</a></li><li class="chapter-item expanded affix "><li class="part-title">Wellness Plans</li><li class="chapter-item expanded "><a href="../concepts/wellness-plan.html"><strong aria-hidden="true">23.</strong> Creating, Monitoring and Changing the Wellness Plan</a></li><li class="chapter-item expanded "><a href="../concepts/derailers.html"><strong aria-hidden="true">24.</strong> Situations That Derail</a></li><li class="chapter-item expanded affix "><li class="part-title">Reference</li><li class="chapter-item expanded "><a href="../glossary.html"><strong aria-hidden="true">25.</strong> Glossary</a></li><li class="chapter-item expanded "><a href="../lesson-map.html"><strong aria-hidden="true">26.</strong> Lesson Map</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">NASM Wellness Coaching — Wiki</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="coaching-mindset-and-session-structure"><a class="header" href="#coaching-mindset-and-session-structure">Coaching Mindset and Session Structure</a></h1>
+<p><em>Lessons covered: 50 (Cultivating a Coaching Mindset), 51 (Coaching Mindset Q&amp;A), 66 (Coaching Tips), 67 (Coaching Mindset), 68 (Consistency in Session Structure)</em></p>
+<h2 id="what-the-coaching-mindset-is"><a class="header" href="#what-the-coaching-mindset-is">What the coaching mindset is</a></h2>
+<p>The <strong>coaching mindset</strong> is a framework for how you engage in and approach your work. It is:</p>
+<ul>
+<li><strong>Client-centred</strong>, rooted in <strong>inquiry</strong> and <strong>empathy</strong>, in <strong>partnership and collaboration</strong></li>
+<li>Grounded in your <strong>self-awareness</strong> and commitment to the process</li>
+<li>Based on <strong>trust</strong>: in the client's wisdom, experience, pace and capacity for change; the client's trust in you and in the space you create; and your trust in yourself and the process</li>
+</ul>
+<p>You are <strong>not there to fix, direct or know everything</strong>. You are there to ask, listen, support, reflect and affirm (Lesson 67).</p>
+<h2 id="the-mindset-frames-lessons-50-and-67"><a class="header" href="#the-mindset-frames-lessons-50-and-67">The mindset frames (Lessons 50 and 67)</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Frame</th><th>What it means</th></tr></thead><tbody>
+<tr><td><strong>Meet clients where they are, while holding a wider vision</strong></td><td>Accept them as a whole person, not a problem to fix, and trust that transformation is possible</td></tr>
+<tr><td><strong>Honour the process as well as the outcome</strong></td><td>Value the growth along the way; stay open to what actually happens, not just what you expected</td></tr>
+<tr><td><strong>Coach from center, not as center</strong></td><td>Come from a grounded place; be a <strong>guide rather than a director</strong></td></tr>
+<tr><td><strong>Beginner's mind with an expert toolkit</strong></td><td>Bring competence <strong>and</strong> curiosity; see each client as unique; allow yourself to not know and to be surprised; don't cling to your agenda or timeline</td></tr>
+<tr><td><strong>Proceed with intention while attending to impact</strong></td><td>Act on purpose and notice the effect</td></tr>
+<tr><td><strong>Commit to doing your own work</strong></td><td>Keep growing as a coach and a human; take in client feedback</td></tr>
+<tr><td><strong>Recognise the cultural and societal context</strong></td><td>See <a href="cultural-awareness-philosophy.html">Cultural Awareness</a></td></tr>
+<tr><td><strong>Hold clients capable and able</strong></td><td>See generative accountability below</td></tr>
+<tr><td><strong>It's all about you and not at all about you</strong></td><td>Self-awareness without making the session about yourself</td></tr>
+</tbody></table>
+</div>
+<h3 id="holding-clients-capable-and-able-generative-accountability"><a class="header" href="#holding-clients-capable-and-able-generative-accountability">Holding clients capable and able: generative accountability</a></h3>
+<p>Traditional &quot;accountability&quot; can feel like <strong>nagging or obligation</strong> (&quot;you did something wrong, you owe me&quot;). The course reframes it:</p>
+<ul>
+<li>The goals come from the <strong>client's own desires and vision</strong>, so buy-in and choice are built in.</li>
+<li>The coach <strong>believes the client can do it</strong>, sometimes more than the client does. That models efficacy.</li>
+<li><strong>Generative accountability</strong> grows intrinsic motivation and self-efficacy: it is <strong>growthful, engaged and mutual</strong>.</li>
+<li>When something doesn't happen, get <strong>curious</strong>: what worked, what didn't, what needs to shift? A &quot;missed opportunity&quot; becomes an opportunity for discovery.</li>
+</ul>
+<h3 id="imposter-feelings-lessons-50-and-66"><a class="header" href="#imposter-feelings-lessons-50-and-66">Imposter feelings (Lessons 50 and 66)</a></h3>
+<ul>
+<li>New coaches often feel the <strong>imposter experience</strong>: doubting whether they are &quot;enough&quot;.</li>
+<li>You don't have to be perfect. You can serve <strong>from exactly where you are</strong>.</li>
+<li>Imposter syndrome involves some <strong>shame and fear</strong>, and vulnerability helps: share your concern with people you trust and be open to feedback.</li>
+<li><strong>Let good feedback sink in.</strong> People in service roles often struggle to accept it.</li>
+<li>The best cure is to <strong>get out there and use your skills</strong> to build someone else up.</li>
+</ul>
+<h2 id="the-coach-as-mirror-lesson-66"><a class="header" href="#the-coach-as-mirror-lesson-66">The coach as mirror (Lesson 66)</a></h2>
+<ul>
+<li>The client does the work. The coach <strong>holds up a mirror</strong> and reflects their words back in new ways so they can see themselves from other angles.</li>
+<li>We all have <strong>blind spots</strong>. Reflection is &quot;the real meat of coaching&quot;, the part nobody can find by searching the internet.</li>
+<li>Don't tell new clients what their transformation will look like. <strong>Telling</strong> can cloud what they think is possible and make the journey a straight-line &quot;dart throw&quot;. Open a <strong>space to explore</strong>: clients often discover things they didn't know they wanted, or didn't want.</li>
+<li>On <strong>movement</strong>: even when prescribing exercise, the goal is an <strong>independent practice</strong> outside sessions. Balance training time with coaching conversations, and keep goals and expectations clear.</li>
+</ul>
+<h2 id="the-relationship-is-the-vehicle-lesson-51"><a class="header" href="#the-relationship-is-the-vehicle-lesson-51">The relationship is the vehicle (Lesson 51)</a></h2>
+<p>Remember how it feels when someone supports you wholeheartedly, listens and gives you space to reflect. Clients could get instructions anywhere. What is rare is someone who <strong>cares</strong>, believes in them and holds a vision for them through self-doubt. Build the <strong>relationship first</strong>; it is the vessel that carries your evidence-based advice.</p>
+<h2 id="before-and-after-a-session-lesson-67"><a class="header" href="#before-and-after-a-session-lesson-67">Before and after a session (Lesson 67)</a></h2>
+<p>Coaching takes <strong>presence and generous attention</strong>. Get <strong>grounded, present, focused and relaxed</strong>.</p>
+<div class="table-wrapper"><table><thead><tr><th>Before</th><th>After</th></tr></thead><tbody>
+<tr><td>Notice your mood and <strong>don't deny it</strong>; acknowledge it and release it</td><td>Take time to <strong>close out</strong></td></tr>
+<tr><td>Shake out, take a quick walk, dance to a song, stretch, drink water</td><td>Make <strong>notes</strong></td></tr>
+<tr><td>Journal, meditate, breathe, do a body scan</td><td><strong>Shake off</strong> the energy</td></tr>
+<tr><td>Review the client's <strong>wellness vision and plan</strong></td><td></td></tr>
+<tr><td>Reread your <strong>coaching philosophy</strong>; remember why you do this work and set an <strong>intention</strong></td><td></td></tr>
+</tbody></table>
+</div>
+<p><strong>Aim of every session:</strong> the client feels <strong>heard, respected and supported</strong>, with <strong>forward momentum</strong> on their wellness goals. You don't need all the answers.</p>
+<h2 id="consistent-session-structure-lesson-68"><a class="header" href="#consistent-session-structure-lesson-68">Consistent session structure (Lesson 68)</a></h2>
+<ul>
+<li><strong>Consistency builds trust and rapport.</strong> Offer a <strong>consistent coaching container</strong> so the client feels ease, confidence and dependability.</li>
+<li><strong>Standardise</strong> the components: how you <strong>open and close</strong> sessions and how you <strong>check in</strong> on goals and strategies.</li>
+<li>The structure signals that this is <strong>intentional time</strong>, not a chat with a friend. It helps the client move from the chaos of their day into honesty and receptivity.</li>
+<li><strong>Consistent doesn't mean rigid.</strong> Stay personalised and responsive; adapt as you gain experience; ask for <strong>feedback</strong> on what is working.</li>
+<li>Look after <strong>yourself</strong> as an essential resource: leave time for breaks.</li>
+<li>Think long-term: goal timelines built on <strong>small, achievable wins</strong> that lead to bigger ones.</li>
+<li>Respect the <strong>client's time</strong>.</li>
+</ul>
+<h2 id="coaching-in-practice"><a class="header" href="#coaching-in-practice">Coaching in practice</a></h2>
+<ul>
+<li>&quot;I know you really want to do this. How can I support you?&quot;</li>
+<li>&quot;That didn't go as planned. What did you learn about what works for you?&quot;</li>
+<li>&quot;What do you want to be true by the end of our time today?&quot; (consistent opener)</li>
+<li>&quot;What are you taking away, and what's your next step before we meet again?&quot; (consistent close)</li>
+<li>&quot;How is the way we work together going for you? Anything you'd change?&quot;</li>
+<li>Before a session, ask yourself: &quot;What am I bringing in with me today, and what do I need to set down?&quot;</li>
+</ul>
+<h2 id="quotes"><a class="header" href="#quotes">Quotes</a></h2>
+<blockquote>
+<p>&quot;You're not there to fix, to direct, to know everything.&quot; (Lesson 67)</p>
+</blockquote>
+<blockquote>
+<p>&quot;Consistent doesn't mean rigid.&quot; (Lesson 68)</p>
+</blockquote>
+<blockquote>
+<p>&quot;If they just wanted to be told what to do, they could find that anywhere.&quot; (Lesson 51)</p>
+</blockquote>
+<h2 id="related"><a class="header" href="#related">Related</a></h2>
+<ul>
+<li><a href="coach-role-relationship.html">The Coach's Role, Evidence and Relationship</a></li>
+<li><a href="cultural-awareness-philosophy.html">Cultural Awareness and Coaching Philosophy</a></li>
+<li><a href="negativity-bias-self-compassion-shame.html">Negativity Bias, Self-Compassion and Shame</a></li>
+<li><a href="self-efficacy.html">Self-Efficacy</a></li>
+<li><a href="wellness-plan.html">Creating, Monitoring and Changing the Wellness Plan</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../concepts/motivational-interviewing.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../concepts/cultural-awareness-philosophy.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../concepts/motivational-interviewing.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../concepts/cultural-awareness-philosophy.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
