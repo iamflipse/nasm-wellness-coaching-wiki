@@ -1,3 +1,5 @@
+<video controls playsinline preload="metadata" src="../videos/opsise.mp4" style="width:100%;max-width:420px;display:block;margin:0 auto 1.5em"></video>
+
 # Wellness Coaching and the Six Dimensions (OPSISE)
 
 *Lessons covered: 1 (Welcome), 3 (Dimensions of Wellness)*

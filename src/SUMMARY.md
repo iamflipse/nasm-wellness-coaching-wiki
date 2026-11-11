@@ -48,3 +48,4 @@
 # Reference
 - [Glossary](glossary.md)
 - [Lesson Map](lesson-map.md)
+- [Videos](videos.md)
